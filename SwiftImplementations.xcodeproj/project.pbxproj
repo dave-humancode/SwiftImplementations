@@ -50,6 +50,8 @@
 		08F1553329B695C200CE3438 /* HUMNProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNProtocols.h; sourceTree = "<group>"; };
 		08F1553529B6A0B400CE3438 /* HUMNFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNFunctions.h; sourceTree = "<group>"; };
 		08F1553729B6A0E100CE3438 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		08F1553929B6A4A600CE3438 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		08F1553A29B6A4B400CE3438 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,8 @@
 		08F154FE29B65B1E00CE3438 = {
 			isa = PBXGroup;
 			children = (
+				08F1553929B6A4A600CE3438 /* LICENSE */,
+				08F1553A29B6A4B400CE3438 /* README.md */,
 				08F1550A29B65B1E00CE3438 /* SwiftImplementations */,
 				08F1551629B65B1E00CE3438 /* SwiftImplementationsTests */,
 				08F1550929B65B1E00CE3438 /* Products */,
