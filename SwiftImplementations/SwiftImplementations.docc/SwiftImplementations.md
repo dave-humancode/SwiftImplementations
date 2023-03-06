@@ -1,10 +1,13 @@
 # ``SwiftImplementations``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
+Simple demonstration of types implemented in Swift, and bridged to Objective-C
+using custom headers.
 
 ## Overview
 
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
+The bulk of the work in this project is contained in the `Defines.h` header
+file. Through the use of the macros defined in that file, you can expose
+classes, protocols, and 
 
 ## Topics
 

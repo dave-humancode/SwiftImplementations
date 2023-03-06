@@ -1,5 +1,5 @@
 //
-//  HUMNArithmetic.h
+//  HUMNClasses.h
 //  SwiftImplementations
 //
 //  Created by Dave Rahardja on 3/6/23.
@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// A class that performs basic arithmetic.
 ///
 /// - Note: This is an ObjC interface to a Swift implementation.
-HUMN_CLASS_IMPLEMENTED_IN_SWIFT(Arithmetic, SwiftImplementations)
+HUMN_INTERFACE_IMPLEMENTED_IN_SWIFT(Arithmetic, SwiftImplementations)
 @interface HUMNArithmetic : NSObject
 
 /// A value to operate on.
