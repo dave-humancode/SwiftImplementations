@@ -45,8 +45,4 @@ HUMN_IMPLEMENTED_IN_SWIFT(SwiftImplementations)
 
 @end
 
-/// Add two numbers.
-HUMN_IMPLEMENTED_IN_SWIFT(SwiftImplementations)
-extern NSInteger addAToB(NSInteger a, NSInteger b);
-
 NS_ASSUME_NONNULL_END

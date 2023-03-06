@@ -17,5 +17,6 @@ FOUNDATION_EXPORT const unsigned char SwiftImplementationsVersionString[];
 
 #import <SwiftImplementations/Defines.h>
 #import <SwiftImplementations/HUMNEnumerations.h>
+#import <SwiftImplementations/HUMNFunctions.h>
 #import <SwiftImplementations/HUMNClasses.h>
 #import <SwiftImplementations/HUMNProtocols.h>

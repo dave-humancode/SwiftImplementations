@@ -19,6 +19,8 @@
 		08F1553029B68F0100CE3438 /* HUMNEnumerations.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1552F29B68F0100CE3438 /* HUMNEnumerations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08F1553229B695B700CE3438 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1553129B695B700CE3438 /* Protocols.swift */; };
 		08F1553429B695C200CE3438 /* HUMNProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1553329B695C200CE3438 /* HUMNProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F1553629B6A0B400CE3438 /* HUMNFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1553529B6A0B400CE3438 /* HUMNFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08F1553829B6A0E100CE3438 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1553729B6A0E100CE3438 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		08F1552F29B68F0100CE3438 /* HUMNEnumerations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNEnumerations.h; sourceTree = "<group>"; };
 		08F1553129B695B700CE3438 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		08F1553329B695C200CE3438 /* HUMNProtocols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNProtocols.h; sourceTree = "<group>"; };
+		08F1553529B6A0B400CE3438 /* HUMNFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNFunctions.h; sourceTree = "<group>"; };
+		08F1553729B6A0E100CE3438 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,9 +95,11 @@
 				08F1550B29B65B1E00CE3438 /* SwiftImplementations.h */,
 				08F1552229B65B2D00CE3438 /* Defines.h */,
 				08F1552629B65FB700CE3438 /* HUMNClasses.h */,
+				08F1553529B6A0B400CE3438 /* HUMNFunctions.h */,
 				08F1552F29B68F0100CE3438 /* HUMNEnumerations.h */,
 				08F1553329B695C200CE3438 /* HUMNProtocols.h */,
 				08F1552829B6616800CE3438 /* Classes.swift */,
+				08F1553729B6A0E100CE3438 /* Functions.swift */,
 				08F1552D29B6883000CE3438 /* Enumerations.swift */,
 				08F1553129B695B700CE3438 /* Protocols.swift */,
 				08F1552B29B685E000CE3438 /* Test.m */,
@@ -120,6 +126,7 @@
 			files = (
 				08F1553429B695C200CE3438 /* HUMNProtocols.h in Headers */,
 				08F1551929B65B1E00CE3438 /* SwiftImplementations.h in Headers */,
+				08F1553629B6A0B400CE3438 /* HUMNFunctions.h in Headers */,
 				08F1552329B65B2D00CE3438 /* Defines.h in Headers */,
 				08F1553029B68F0100CE3438 /* HUMNEnumerations.h in Headers */,
 				08F1552729B65FB700CE3438 /* HUMNClasses.h in Headers */,
@@ -229,6 +236,7 @@
 				08F1550D29B65B1E00CE3438 /* SwiftImplementations.docc in Sources */,
 				08F1552929B6616800CE3438 /* Classes.swift in Sources */,
 				08F1552E29B6883000CE3438 /* Enumerations.swift in Sources */,
+				08F1553829B6A0E100CE3438 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

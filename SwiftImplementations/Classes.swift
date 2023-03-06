@@ -59,7 +59,3 @@ extension Arithmetic {
         return a * b * c
     }
 }
-
-@_cdecl("addAToB") public func add(_ a: Int, to b: Int) -> Int {
-    return a + b
-}
