@@ -48,6 +48,18 @@ extension Arithmetic {
     }
 }
 
+// Extension supporting multiplication
+@objc extension Arithmetic {
+    @objc public var product: Int {
+        get { a * b }
+    }
+
+    @objc(multiplyValuesAndValue:)
+    public func multiplyValuesAnd(_ c: Int) -> Int {
+        return a * b * c
+    }
+}
+
 @_cdecl("addAToB") public func add(_ a: Int, to b: Int) -> Int {
     return a + b
 }

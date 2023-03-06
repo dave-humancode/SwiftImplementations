@@ -5,13 +5,14 @@
 //  Created by Dave Rahardja on 3/5/23.
 //
 
-// Declares a symbol as implemented in Swift. Use this for functions.
+// Declares a symbol as implemented in Swift. Use this for functions and
+// categories.
 //
 // Usage: HUMN_IMPLEMENTED_IN_SWIFT(module) <declaration>
 #define HUMN_IMPLEMENTED_IN_SWIFT(_module) \
 __attribute__((external_source_symbol(language="Swift", defined_in=#_module, generated_declaration)))
 
-// Declares an Objective-C interface or category as implemented in Swift.
+// Declares an Objective-C class as implemented in Swift.
 //
 // Usage: HUMN_CLASS_IMPLEMENTED_IN_SWIFT(swiftname, module) <declaration>
 #define HUMN_CLASS_IMPLEMENTED_IN_SWIFT(_swift_name, _module) \
