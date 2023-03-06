@@ -5,7 +5,9 @@
 //  Created by Dave Rahardja on 3/5/23.
 //
 
-// Declares a symbol to be implemented in Swift
+// Declares a symbol as implemented in Swift. Use this for functions.
+//
+// Usage: HUMN_IMPLEMENTED_IN_SWIFT(module) <declaration>
 #define HUMN_IMPLEMENTED_IN_SWIFT(_module) \
 __attribute__((external_source_symbol(language="Swift", defined_in=#_module, generated_declaration)))
 
