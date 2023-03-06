@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+/// A simple enumeration for counting up.
+@objc(HUMNEnumeration) public enum Enumeration: Int {
+    /// Zero
+    case zero
+    /// One
+    case one
+    /// Two
+    case two
+}

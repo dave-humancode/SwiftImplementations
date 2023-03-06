@@ -24,8 +24,7 @@ HUMN_IMPLEMENTED_IN_SWIFT(_module)
 //
 // Usage: typedef HUMN_ENUM_IMPLEMENTED_IN_SWIFT(Type, Name, SwiftName, Module) { ... };
 #define HUMN_ENUM_IMPLEMENTED_IN_SWIFT(_type, _name, _swift_name, _module) \
-enum _name : _type _name __attribute__((swift_name(_swift_name))); \
+enum _name : _type _name __attribute__((swift_name(#_swift_name))); \
 enum __attribute__((swift_name(#_swift_name))) \
-__attribute__((enum_extensibility(closed))) \
 HUMN_IMPLEMENTED_IN_SWIFT(_module) \
 _name: _type
