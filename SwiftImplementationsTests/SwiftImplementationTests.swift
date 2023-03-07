@@ -42,4 +42,22 @@ final class SwiftImplementationTests: XCTestCase {
         let subtractor = Subtractor()
         consumer.accept(subtractor)
     }
+
+    /// A subclass
+    ///
+    /// ``Arithmetic`` can still be subclassed in Swift although it is not
+    /// subclassable in Objective-C.
+    class Divider: Arithmetic {
+        public var quotient: Int {
+            get { a / b }
+        }
+    }
+
+    func testSubclass() {
+        let divider = Divider()
+        divider.a = 15
+        divider.b = 3
+        XCTAssertEqual(divider.quotient, 5)
+        XCTAssertEqual(divider.sum, 18)
+    }
 }

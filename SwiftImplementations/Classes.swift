@@ -9,7 +9,7 @@ import Foundation
 
 /// A class that performs basic arithmetic.
 @objc(HUMNArithmetic)
-public class Arithmetic: NSObject {
+open class Arithmetic: NSObject {
 
     /// A value to operate on.
     @objc(valueA) public var a: Int = 0
