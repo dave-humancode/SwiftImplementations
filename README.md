@@ -36,12 +36,13 @@ Disable automatic header generation by setting `SWIFT_INSTALL_OBJC_HEADER = NO`
 in an `xcconfig` file assigned to your target, or by setting “Install
 Objective-C Compatibility Header” to `No` in your target’s build settings.
 
-### Only compatible symbols may be visible from Objective-C
+### Only compatible symbols may be exposed to Objective-C
 
 Only methods and types compatible with Objective-C can be exposed in
-Objective-C headers. Create helper methods, computed properties, or functions to
-expose a compatible interface. For classes, mark these helper methods or
-computed properties `private` to hide them Swift users of your code.
+Objective-C headers. You may create helper methods, computed properties, or
+functions to provide a compatible interface for an incompatible one. For
+classes, mark these helper methods or computed properties `private` to hide them
+from Swift users of your code.
 
 ### Classes exposed to Objective-C cannot be subclassed
 
