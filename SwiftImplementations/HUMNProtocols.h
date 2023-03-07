@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /// A protocol that encapsulates subtraction.
-HUMN_INTERFACE_IMPLEMENTED_IN_SWIFT(Subtraction, SwiftImplementations)
+HUMN_PROTOCOL_IMPLEMENTED_IN_SWIFT(Subtraction, SwiftImplementations)
 @protocol HUMNSubtraction <NSObject>
 
 /// Subtract one value from another.

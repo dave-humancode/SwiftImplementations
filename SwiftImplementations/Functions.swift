@@ -7,6 +7,6 @@
 
 import Foundation
 
-@_cdecl("addAToB") public func add(_ a: Int, to b: Int) -> Int {
+@_cdecl("addTwoNumbers") public func addNumber(_ a: Int, to b: Int) -> Int {
     return a + b
 }

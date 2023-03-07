@@ -50,7 +50,7 @@ extension Arithmetic {
 
 // Extension supporting multiplication
 @objc extension Arithmetic {
-    @objc public var product: Int {
+    @objc(productOfValues) public var product: Int {
         get { a * b }
     }
 

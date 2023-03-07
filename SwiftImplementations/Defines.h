@@ -12,10 +12,18 @@
 #define HUMN_IMPLEMENTED_IN_SWIFT(_module) \
 __attribute__((external_source_symbol(language="Swift", defined_in=#_module, generated_declaration)))
 
-// Declares an Objective-C class or protocol as implemented in Swift.
+// Declares an Objective-C class as implemented in Swift.
 //
-// Usage: HUMN_CLASS_IMPLEMENTED_IN_SWIFT(swiftname, module) <declaration>
-#define HUMN_INTERFACE_IMPLEMENTED_IN_SWIFT(_swift_name, _module) \
+// Usage: HUMN_CLASS_IMPLEMENTED_IN_SWIFT(swiftname, module) @interface ...
+#define HUMN_CLASS_IMPLEMENTED_IN_SWIFT(_swift_name, _module) \
+__attribute__((swift_name(#_swift_name))) \
+__attribute__((objc_subclassing_restricted)) \
+HUMN_IMPLEMENTED_IN_SWIFT(_module)
+
+// Declares an Objective-C protocol as implemented in Swift.
+//
+// Usage: HUMN_PROTOCOL_IMPLEMENTED_IN_SWIFT(swiftname, module) @interface ...
+#define HUMN_PROTOCOL_IMPLEMENTED_IN_SWIFT(_swift_name, _module) \
 __attribute__((swift_name(#_swift_name))) \
 HUMN_IMPLEMENTED_IN_SWIFT(_module)
 
@@ -26,5 +34,6 @@ HUMN_IMPLEMENTED_IN_SWIFT(_module)
 #define HUMN_ENUM_IMPLEMENTED_IN_SWIFT(_type, _name, _swift_name, _module) \
 enum _name : _type _name __attribute__((swift_name(#_swift_name))); \
 enum __attribute__((swift_name(#_swift_name))) \
+__attribute__((enum_extensibility(closed))) \
 HUMN_IMPLEMENTED_IN_SWIFT(_module) \
 _name: _type

@@ -62,7 +62,7 @@ steps:
 
 - Create a header file with an Objective-C interface that reflects the 
   interface of the Swift class.
-- Prefix the interface with ``HUMN_INTERFACE_IMPLEMENTED_IN_SWIFT``, passing in
+- Prefix the interface with ``HUMN_CLASS_IMPLEMENTED_IN_SWIFT``, passing in
   the Swift name of the class, and the module it appears in.
 - In Swift, prefix the class with `@objc()`, passing in the name of the class
   as it appears in the Objective-C header.
@@ -95,7 +95,7 @@ To expose a protocol written in Swift to Objective-C, follow these steps:
 
 - Create a header file with an Objective-C protocol that reflects the Swift
   protocol.
-- Prefix the interface with ``HUMN_INTERFACE_IMPLEMENTED_IN_SWIFT``, passing in
+- Prefix the interface with ``HUMN_PROTOCOL_IMPLEMENTED_IN_SWIFT``, passing in
   the Swift name of the protocol, and the module it appears in.
 - In Swift, prefix the protocol with `@objc()`, passing in the name of the
   protocol as it appears on the Objective-C header.

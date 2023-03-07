@@ -14,13 +14,14 @@
 		08F1552329B65B2D00CE3438 /* Defines.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1552229B65B2D00CE3438 /* Defines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08F1552729B65FB700CE3438 /* HUMNClasses.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1552629B65FB700CE3438 /* HUMNClasses.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08F1552929B6616800CE3438 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1552829B6616800CE3438 /* Classes.swift */; };
-		08F1552C29B685E000CE3438 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F1552B29B685E000CE3438 /* Test.m */; };
 		08F1552E29B6883000CE3438 /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1552D29B6883000CE3438 /* Enumerations.swift */; };
 		08F1553029B68F0100CE3438 /* HUMNEnumerations.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1552F29B68F0100CE3438 /* HUMNEnumerations.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08F1553229B695B700CE3438 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1553129B695B700CE3438 /* Protocols.swift */; };
 		08F1553429B695C200CE3438 /* HUMNProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1553329B695C200CE3438 /* HUMNProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08F1553629B6A0B400CE3438 /* HUMNFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F1553529B6A0B400CE3438 /* HUMNFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08F1553829B6A0E100CE3438 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1553729B6A0E100CE3438 /* Functions.swift */; };
+		08F1553D29B6E04200CE3438 /* HUMNTestConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F1553C29B6E04200CE3438 /* HUMNTestConsumer.m */; };
+		08F1554029B6E15000CE3438 /* SwiftImplementationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F1553F29B6E15000CE3438 /* SwiftImplementationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +44,6 @@
 		08F1552629B65FB700CE3438 /* HUMNClasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNClasses.h; sourceTree = "<group>"; };
 		08F1552829B6616800CE3438 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 		08F1552A29B6631100CE3438 /* SwiftImplementations.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SwiftImplementations.xcconfig; sourceTree = "<group>"; };
-		08F1552B29B685E000CE3438 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		08F1552D29B6883000CE3438 /* Enumerations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
 		08F1552F29B68F0100CE3438 /* HUMNEnumerations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNEnumerations.h; sourceTree = "<group>"; };
 		08F1553129B695B700CE3438 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
@@ -52,6 +52,10 @@
 		08F1553729B6A0E100CE3438 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		08F1553929B6A4A600CE3438 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		08F1553A29B6A4B400CE3438 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		08F1553B29B6E04200CE3438 /* HUMNTestConsumer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUMNTestConsumer.h; sourceTree = "<group>"; };
+		08F1553C29B6E04200CE3438 /* HUMNTestConsumer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUMNTestConsumer.m; sourceTree = "<group>"; };
+		08F1553E29B6E15000CE3438 /* SwiftImplementationsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftImplementationsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		08F1553F29B6E15000CE3438 /* SwiftImplementationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftImplementationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +110,6 @@
 				08F1553729B6A0E100CE3438 /* Functions.swift */,
 				08F1552D29B6883000CE3438 /* Enumerations.swift */,
 				08F1553129B695B700CE3438 /* Protocols.swift */,
-				08F1552B29B685E000CE3438 /* Test.m */,
 				08F1550C29B65B1E00CE3438 /* SwiftImplementations.docc */,
 				08F1552A29B6631100CE3438 /* SwiftImplementations.xcconfig */,
 			);
@@ -116,7 +119,11 @@
 		08F1551629B65B1E00CE3438 /* SwiftImplementationsTests */ = {
 			isa = PBXGroup;
 			children = (
+				08F1553E29B6E15000CE3438 /* SwiftImplementationsTests-Bridging-Header.h */,
+				08F1553B29B6E04200CE3438 /* HUMNTestConsumer.h */,
+				08F1553C29B6E04200CE3438 /* HUMNTestConsumer.m */,
 				08F1551729B65B1E00CE3438 /* SwiftImplementationsTests.m */,
+				08F1553F29B6E15000CE3438 /* SwiftImplementationTests.swift */,
 			);
 			path = SwiftImplementationsTests;
 			sourceTree = "<group>";
@@ -191,6 +198,7 @@
 					};
 					08F1551129B65B1E00CE3438 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -236,7 +244,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				08F1553229B695B700CE3438 /* Protocols.swift in Sources */,
-				08F1552C29B685E000CE3438 /* Test.m in Sources */,
 				08F1550D29B65B1E00CE3438 /* SwiftImplementations.docc in Sources */,
 				08F1552929B6616800CE3438 /* Classes.swift in Sources */,
 				08F1552E29B6883000CE3438 /* Enumerations.swift in Sources */,
@@ -249,6 +256,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				08F1551829B65B1E00CE3438 /* SwiftImplementationsTests.m in Sources */,
+				08F1554029B6E15000CE3438 /* SwiftImplementationTests.swift in Sources */,
+				08F1553D29B6E04200CE3438 /* HUMNTestConsumer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,9 +460,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = us.humancode.SwiftImplementationsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -461,6 +476,9 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftImplementationsTests/SwiftImplementationsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -469,9 +487,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = us.humancode.SwiftImplementationsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,6 +503,8 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftImplementationsTests/SwiftImplementationsTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

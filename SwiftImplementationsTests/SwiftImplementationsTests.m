@@ -6,6 +6,8 @@
 //
 
 #import <XCTest/XCTest.h>
+#import <SwiftImplementations/SwiftImplementations.h>
+#import "HUMNTestConsumer.h"
 
 @interface SwiftImplementationsTests : XCTestCase
 
@@ -13,24 +15,19 @@
 
 @implementation SwiftImplementationsTests
 
-- (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+- (void)testArithmetic
+{
+    HUMNArithmetic *arithmetic = [[HUMNArithmetic alloc] init];
+    arithmetic.valueA = 10;
+    arithmetic.valueB = 32;
+    XCTAssertEqual(arithmetic.sumOfValues, 42);
+    XCTAssertEqual([arithmetic sumOfValuesAndValue:4], 46);
+    XCTAssertEqual(arithmetic.productOfValues, 320);
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testFunction
+{
+    XCTAssertEqual(addTwoNumbers(4, 10), 14);
 }
 
 @end

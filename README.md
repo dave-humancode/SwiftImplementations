@@ -42,3 +42,5 @@ Only methods and types compatible with Objective-C can be exposed in
 Objective-C headers. Create helper methods, computed properties, or functions to
 expose a compatible interface. For classes, mark these helper methods or
 computed properties `private` to hide them Swift users of your code.
+
+### There are limitations on subclassing

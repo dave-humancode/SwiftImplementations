@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// A class that performs basic arithmetic.
 ///
 /// - Note: This is an ObjC interface to a Swift implementation.
-HUMN_INTERFACE_IMPLEMENTED_IN_SWIFT(Arithmetic, SwiftImplementations)
+HUMN_CLASS_IMPLEMENTED_IN_SWIFT(Arithmetic, SwiftImplementations)
 @interface HUMNArithmetic : NSObject
 
 /// A value to operate on.
@@ -38,7 +38,7 @@ HUMN_IMPLEMENTED_IN_SWIFT(SwiftImplementations)
 @interface HUMNArithmetic (Multiplication)
 
 /// The product of ``valueA`` and ``valueB``.
-@property (nonatomic, readonly) NSInteger product;
+@property (nonatomic, readonly) NSInteger productOfValues;
 
 /// Multiply ``valueA``, ``valueB``, and `valueC`.
 - (NSInteger)productOfValuesAndValue:(NSInteger)valueC;
